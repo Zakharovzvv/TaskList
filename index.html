@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Title</title>
+</head>
+<body>
+<nav class="header navbar navbar-dark bg-primary">
+    <a class="navbar-brand">Navbar</a>
+    <form class="form-inline">
+        <select class="form-control  form-control-sm" id="themeSelect">
+            <option value="default">Theme Default</option>
+            <option value="light">Theme Light</option>
+            <option value="dark">Theme Dark</option>
+        </select>
+    </form>
+</nav>
+<div class="form-section mt-5">
+    <div class="container">
+        <div class="col col-8 mx-auto">
+            <div class="card">
+                <div class="card-body">
+
+                    <form name="form-task">
+                        <div class="form-group">
+                            <label for="title">Task title</label>
+                            <input type="text" class="form-control" id="title" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Task description</label>
+                            <textarea class="form-control" id="description" rows="3"></textarea>
+                        </div>
+                        <button type="submit" id="btn-add-task" class="btn btn-primary">Add task</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="form-section mt-5">
+    <div class="container">
+        <h2>Task list</h2>
+        <div class="row row-cols-1 row-cols-md-1">
+            <div class="list-group col mb-4">
+                <!--                <div class="card">-->
+                <!--                    <div class="card-body">-->
+                <!--                        <h5 class="card-title">Task 1</h5>-->
+                <!--                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci alias-->
+                <!--                            aliquam-->
+                <!--                            delectus deleniti distinctio harum impedit iste maxime nam, necessitatibus obcaecati,-->
+                <!--                            perferendis-->
+                <!--                            quaerat qui quia quibusdam quod, sequi sunt!</p>-->
+                <!--                        <a href="#" class="btn btn-primary">Delete</a>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Optional JavaScript -->
+<!--&lt;!&ndash; jQuery first, then Popper.js, then Bootstrap JS &ndash;&gt;-->
+<!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"-->
+<!--        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"-->
+<!--        crossorigin="anonymous"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"-->
+<!--        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"-->
+<!--        crossorigin="anonymous"></script>-->
+<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"-->
+<!--        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"-->
+<!--        crossorigin="anonymous"></script>-->
+<script src="js/myhttp.js"></script>
+<script src="js/todoList.js"></script>
+
+
+
+</body>
+</html>
